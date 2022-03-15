@@ -1,6 +1,6 @@
 <template>
   <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-      <div class="col-lg-6"><img class="img-fluid" :src="require('../../public/img/' + imagePath)" alt="..." /></div>
+      <div class="col-lg-6"><img class="img-fluid" :src="require('../img/' + imagePath)" alt="..." /></div>
       <div v-bind:class="{ 'order-lg-first': left }" class="col-lg-6">
           <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">

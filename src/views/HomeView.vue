@@ -23,7 +23,7 @@
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="img/satbooks.png" alt="..." />
+                <img class="img-fluid" src="../img/satbooks.png" alt="..." />
             </div>
         </section>
         <!-- Projects-->
