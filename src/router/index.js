@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import CourseView1 from '../views/CourseView1.vue'
+import CourseView2 from '../views/CourseView2.vue'
+import CourseView3 from '../views/CourseView3.vue'
 
 Vue.use(VueRouter)
 
@@ -13,17 +16,17 @@ const routes = [
   {
     path: '/sat',
     name: 'sat',
-    component: () => import('../views/CourseView1.vue')
+    component: CourseView1
   },
   {
     path: '/sat2',
     name: 'sat2',
-    component: () => import('../views/CourseView2.vue')
+    component: CourseView2
   },
   {
     path: '/toefl',
     name: 'toefl',
-    component: () => import('../views/CourseView3.vue')
+    component: CourseView3
   }
 ]
 
