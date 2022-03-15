@@ -24,7 +24,7 @@ export default {
   methods: {
     openLink() {
       // open link in same tab
-      window.open(this.link, '_self');
+      this.$router.push(this.link);
     }
   }
 }

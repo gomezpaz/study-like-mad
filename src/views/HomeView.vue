@@ -30,10 +30,10 @@
         <section class="projects-section bg-light" id="projects">
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
-                <FeaturedCourseCard title="SAT Prep" description="These online SAT Subject Test practice tests are designed to help you prepare. Feedback is provided as you complete each test, and includes your percentile." imagePath="sat.jpg" link="/sat"/>
+                <FeaturedCourseCard title="SAT Prep" description="These online SAT Subject Test practice tests are designed to help you prepare. Feedback is provided as you complete each test, and includes your percentile." imagePath="sat.jpg" link="sat"/>
                 <!-- Courses -->
-                <CourseCard title="SAT II Prep" description="The best SAT II prep courses and classes available, including coverage of quality, price and overall effectiveness." imagePath="sat2.png" link="/sat2" :left="true"/>
-                <CourseCard title="TOEFL Prep" description="Learn everything from basic English grammar to advanced TOEFL strategies with our library of lesson videos." imagePath="toefl.jpg" link="/toefl" :left="false"/>
+                <CourseCard title="SAT II Prep" description="The best SAT II prep courses and classes available, including coverage of quality, price and overall effectiveness." imagePath="sat2.png" link="sat2" :left="true"/>
+                <CourseCard title="TOEFL Prep" description="Learn everything from basic English grammar to advanced TOEFL strategies with our library of lesson videos." imagePath="toefl.jpg" link="toefl" :left="false"/>
             </div>
         </section>
         <!-- Signup-->
