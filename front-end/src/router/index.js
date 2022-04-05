@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 import CourseView1 from '../views/CourseView1.vue'
 import CourseView2 from '../views/CourseView2.vue'
 import CourseView3 from '../views/CourseView3.vue'
+import AdminView from '../views/Admin.vue'
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,11 @@ const routes = [
     path: '/toefl',
     name: 'toefl',
     component: CourseView3
+  },
+  {
+    path: '/admin',
+    name: 'admin',
+    component: AdminView
   }
 ]
 
